@@ -33,7 +33,7 @@
   </head>
   <body>
     <header role="banner">
-      <div class="bg-dark text-center py-2">
+      <div id="home" class="bg-dark text-center py-2">
         <h2 class="text-light">Welcome To Our World!</h2>
       </div>
       <nav
@@ -65,7 +65,7 @@
           >
             <ul class="navbar-nav navbar-right mr-4 text-center">
               <li class="nav-item">
-                <a id="home" href="#" class="nav-link active fs-5">Home</a>
+                <a href="#" class="nav-link active fs-5">Home</a>
               </li>
               <li class="nav-item">
                 <a href="#about" class="nav-link fs-5">About us</a>
@@ -420,25 +420,34 @@
     </main>
     <footer class="bg-dark">
       <div class="container">
-        <div class="row">
-          <h2 class="fs-5 text-light py-4 mb-0 text-center">
-            Copyright&copy; 2024 UnityLogistics
-          </h2>
-          <a href="#home" class="button-up text-warning" aria-label="scroll up">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              class="bi bi-arrow-up-circle"
-              viewBox="0 0 16 16"
+        <div class="row align-items-center">
+          <div class="col-md-11">
+            <h2 class="fs-5 text-light py-4 mb-0 text-center">
+              Copyright&copy; 2024 UnityLogistics
+            </h2>
+          </div>
+          <div class="col-md-1 mb-4 mb-md-0 text-end">
+            <a
+              href="#home"
+              class="button-up text-warning"
+              aria-label="scroll up"
+              title="Scroll Up"
             >
-              <path
-                fill-rule="evenodd"
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
-              />
-            </svg>
-          </a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-arrow-up-circle button-up"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-Rule="evenodd"
+                  d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
