@@ -101,6 +101,9 @@ img {
 .button-up {
   -webkit-animation: floatAnimation 3s ease-in-out infinite;
           animation: floatAnimation 3s ease-in-out infinite;
+  position: absolute;
+  top: 15px;
+  right: 5px;
 }
 
 @-webkit-keyframes floatAnimation {
@@ -109,8 +112,8 @@ img {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
   }
   100% {
     -webkit-transform: translateY(0);
@@ -124,8 +127,8 @@ img {
             transform: translateY(0);
   }
   50% {
-    -webkit-transform: translateY(-5px);
-            transform: translateY(-5px);
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
   }
   100% {
     -webkit-transform: translateY(0);

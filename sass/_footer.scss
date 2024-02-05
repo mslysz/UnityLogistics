@@ -1,5 +1,8 @@
 .button-up {
   animation: floatAnimation 3s ease-in-out infinite;
+  position: absolute;
+  top: 15px;
+  right: 5px;
 }
 
 @keyframes floatAnimation {
