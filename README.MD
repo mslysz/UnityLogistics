@@ -15,8 +15,9 @@ This website was created using Bootstrap 5 and the SASS preprocessor. It serves 
 
 ## Planned Features:
 
-- **Translation to Other Languages**
-  In the future, we plan to implement a feature allowing users to translate the website's content into multiple languages. This will involve integrating a language selection mechanism, enabling users to easily switch between different language versions. Translations will be stored in dedicated files for each language, ensuring efficient management and seamless user experience.
+- **Translation to Other Languages**  
+   **_The function is now available._**
+  The recently added feature allows users to translate the content of the website from English to Polish and vice versa. The translation mechanism is user-friendly and ensures content consistency across different language versions.
 
 - **Day and Night Mode**
   Another upcoming feature is the introduction of a day and night mode option. Users will have the ability to toggle between light and dark modes, catering to their personal preferences and enhancing readability in different lighting conditions. The website's styling will dynamically adjust based on the selected mode, offering a visually comfortable browsing experience at any time of the day.
